@@ -28,14 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nuevoEnemigoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.volverAMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.proximamenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -59,70 +51,8 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnExaminar = new System.Windows.Forms.Button();
             this.ofdImagenEnemigo = new System.Windows.Forms.OpenFileDialog();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEnemigo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem,
-            this.ayudaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(732, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // archivoToolStripMenuItem
-            // 
-            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevoEnemigoToolStripMenuItem,
-            this.volverAMenuToolStripMenuItem,
-            this.salirToolStripMenuItem,
-            this.salirToolStripMenuItem1});
-            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.archivoToolStripMenuItem.Text = "Archivo";
-            // 
-            // nuevoEnemigoToolStripMenuItem
-            // 
-            this.nuevoEnemigoToolStripMenuItem.Name = "nuevoEnemigoToolStripMenuItem";
-            this.nuevoEnemigoToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
-            this.nuevoEnemigoToolStripMenuItem.Text = "Nuevo enemigo";
-            this.nuevoEnemigoToolStripMenuItem.Click += new System.EventHandler(this.nuevoEnemigoToolStripMenuItem_Click);
-            // 
-            // volverAMenuToolStripMenuItem
-            // 
-            this.volverAMenuToolStripMenuItem.Name = "volverAMenuToolStripMenuItem";
-            this.volverAMenuToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
-            this.volverAMenuToolStripMenuItem.Text = "Volver a menu";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
-            this.salirToolStripMenuItem.Text = "Buscar";
-            // 
-            // salirToolStripMenuItem1
-            // 
-            this.salirToolStripMenuItem1.Name = "salirToolStripMenuItem1";
-            this.salirToolStripMenuItem1.Size = new System.Drawing.Size(159, 22);
-            this.salirToolStripMenuItem1.Text = "Salir";
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.proximamenteToolStripMenuItem});
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
-            // proximamenteToolStripMenuItem
-            // 
-            this.proximamenteToolStripMenuItem.Name = "proximamenteToolStripMenuItem";
-            this.proximamenteToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
-            this.proximamenteToolStripMenuItem.Text = "Proximamente";
             // 
             // btnBuscar
             // 
@@ -343,13 +273,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmGestionEnemigos";
             this.Text = "Gestión de enemigos";
             this.Load += new System.EventHandler(this.formEnemigos_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEnemigo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -358,11 +284,6 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nuevoEnemigoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem volverAMenuToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -375,9 +296,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DomainUpDown dudComportamiento;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem proximamenteToolStripMenuItem;
         private System.Windows.Forms.DataGridView dgvEnemigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.TextBox textBox3;

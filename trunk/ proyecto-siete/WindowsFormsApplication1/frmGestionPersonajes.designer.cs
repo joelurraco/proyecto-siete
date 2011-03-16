@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.NombrePersonaje = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VidaPersonaje = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AtaquePersonaje = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DefensaPersonaje = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btNuevo = new System.Windows.Forms.Button();
             this.btEditar = new System.Windows.Forms.Button();
             this.btSalir = new System.Windows.Forms.Button();
@@ -36,15 +40,7 @@
             this.btBorrar = new System.Windows.Forms.Button();
             this.btMostrar = new System.Windows.Forms.Button();
             this.btBuscar = new System.Windows.Forms.Button();
-            this.NombrePersonaje = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VidaPersonaje = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AtaquePersonaje = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DefensaPersonaje = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -64,6 +60,31 @@
             this.dataGridView1.Size = new System.Drawing.Size(700, 232);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // NombrePersonaje
+            // 
+            this.NombrePersonaje.HeaderText = "Nombre";
+            this.NombrePersonaje.Name = "NombrePersonaje";
+            this.NombrePersonaje.ReadOnly = true;
+            // 
+            // VidaPersonaje
+            // 
+            this.VidaPersonaje.HeaderText = "Vida Inicial";
+            this.VidaPersonaje.Name = "VidaPersonaje";
+            this.VidaPersonaje.ReadOnly = true;
+            // 
+            // AtaquePersonaje
+            // 
+            this.AtaquePersonaje.HeaderText = "Ataque";
+            this.AtaquePersonaje.Name = "AtaquePersonaje";
+            this.AtaquePersonaje.ReadOnly = true;
+            // 
+            // DefensaPersonaje
+            // 
+            this.DefensaPersonaje.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.DefensaPersonaje.HeaderText = "Defensa";
+            this.DefensaPersonaje.Name = "DefensaPersonaje";
+            this.DefensaPersonaje.ReadOnly = true;
             // 
             // btNuevo
             // 
@@ -131,55 +152,7 @@
             this.btBuscar.Text = "Buscar";
             this.btBuscar.UseVisualStyleBackColor = true;
             // 
-            // NombrePersonaje
-            // 
-            this.NombrePersonaje.HeaderText = "Nombre";
-            this.NombrePersonaje.Name = "NombrePersonaje";
-            this.NombrePersonaje.ReadOnly = true;
-            // 
-            // VidaPersonaje
-            // 
-            this.VidaPersonaje.HeaderText = "Vida Inicial";
-            this.VidaPersonaje.Name = "VidaPersonaje";
-            this.VidaPersonaje.ReadOnly = true;
-            // 
-            // AtaquePersonaje
-            // 
-            this.AtaquePersonaje.HeaderText = "Ataque";
-            this.AtaquePersonaje.Name = "AtaquePersonaje";
-            this.AtaquePersonaje.ReadOnly = true;
-            // 
-            // DefensaPersonaje
-            // 
-            this.DefensaPersonaje.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.DefensaPersonaje.HeaderText = "Defensa";
-            this.DefensaPersonaje.Name = "DefensaPersonaje";
-            this.DefensaPersonaje.ReadOnly = true;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem,
-            this.ayudaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(746, 24);
-            this.menuStrip1.TabIndex = 13;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // archivoToolStripMenuItem
-            // 
-            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.archivoToolStripMenuItem.Text = "Archivo";
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
-            // GestionPersonajes
+            // frmGestionPersonajes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -192,13 +165,9 @@
             this.Controls.Add(this.btEditar);
             this.Controls.Add(this.btNuevo);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "GestionPersonajes";
+            this.Name = "frmGestionPersonajes";
             this.Text = "GestionPersonajes";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,8 +187,5 @@
         private System.Windows.Forms.Button btBorrar;
         private System.Windows.Forms.Button btMostrar;
         private System.Windows.Forms.Button btBuscar;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
     }
 }
