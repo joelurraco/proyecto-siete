@@ -69,6 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enemigo.cs" />
     <Compile Include="frmGestionLocalizaciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,8 +136,10 @@
     <Compile Include="frmGestionUsuarios.designer.cs">
       <DependentUpon>frmGestionUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Personaje.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuario.cs" />
     <EmbeddedResource Include="frmGestionLocalizaciones.resx">
       <DependentUpon>frmGestionLocalizaciones.cs</DependentUpon>
     </EmbeddedResource>
