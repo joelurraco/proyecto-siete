@@ -36,3 +36,4 @@ C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsAp
 C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.Properties.Resources.resources
 C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\obj\Debug\GenerateResource.read.1.tlog
 C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionLocalizaciones.resources

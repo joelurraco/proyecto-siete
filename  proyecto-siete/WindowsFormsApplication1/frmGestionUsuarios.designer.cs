@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btBuscar = new System.Windows.Forms.Button();
             this.btNuevo = new System.Windows.Forms.Button();
             this.btBorrar = new System.Windows.Forms.Button();
@@ -43,32 +40,8 @@
             this.PersonajeUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ExperienciaUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbBuscar = new System.Windows.Forms.TextBox();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem,
-            this.ayudaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(761, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // archivoToolStripMenuItem
-            // 
-            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.archivoToolStripMenuItem.Text = "Archivo";
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
             // btBuscar
             // 
@@ -180,7 +153,7 @@
             this.tbBuscar.TabIndex = 8;
             this.tbBuscar.Text = "Buscar...";
             // 
-            // GestionUsuarios
+            // frmGestionUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -193,13 +166,9 @@
             this.Controls.Add(this.btBorrar);
             this.Controls.Add(this.btNuevo);
             this.Controls.Add(this.btBuscar);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "GestionUsuarios";
+            this.Name = "frmGestionUsuarios";
             this.Text = "Gestion de Usuarios";
             this.Load += new System.EventHandler(this.frmGestionUsuarios_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -208,9 +177,6 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.Button btBuscar;
         private System.Windows.Forms.Button btNuevo;
         private System.Windows.Forms.Button btBorrar;

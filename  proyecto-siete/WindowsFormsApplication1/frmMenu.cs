@@ -24,6 +24,7 @@ namespace ProyectoSIETE
         frmBuscador frmBuscador = new frmBuscador();
         frmGestionPersonajes frmGestionPersonajes = new frmGestionPersonajes();
         frmGestionUsuarios frmGestionUsuarios = new frmGestionUsuarios();
+        frmGestionLocalizaciones frmGestionLocalizaciones = new frmGestionLocalizaciones();
 
         private void frmMenu_Load(object sender, EventArgs e)
         {
@@ -122,6 +123,17 @@ namespace ProyectoSIETE
             frmGestionUsuarios.MdiParent = this;
             frmGestionUsuarios.Show();
             frmGestionUsuarios.WindowState = FormWindowState.Maximized;
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            if (frmGestionLocalizaciones.Visible == false)
+            {
+                frmGestionLocalizaciones = new frmGestionLocalizaciones();
+            }
+            frmGestionLocalizaciones.MdiParent = this;
+            frmGestionLocalizaciones.Show();
+            frmGestionLocalizaciones.WindowState = FormWindowState.Maximized;
         }
 
         
