@@ -1,0 +1,75 @@
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\obj\Debug\gestionObjetos.csproj.GenerateResource.Cache
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\bin\Debug\gestionObjetos.exe
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\bin\Debug\gestionObjetos.pdb
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\obj\Debug\gestionObjetos.exe
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\obj\Debug\gestionObjetos.pdb
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmModificarObjetos.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionObjetos.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Practicas\Proyecto Solucion\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionTaberna.resources
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\gestionObjetos.exe
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\gestionObjetos.pdb
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\bin\Debug\gestionObjetos.exe
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\bin\Debug\gestionObjetos.pdb
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionObjetos.resources
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionTaberna.resources
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmModificarObjetos.resources
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmNuevoObjetoTaberna.resources
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmMenu.resources
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\bin\Debug\gestionObjetos.exe.config
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Kongol\Desktop\solucion\WindowsFormsApplication1\obj\Debug\GestionEnemigos.formEnemigos.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\bin\Debug\gestionObjetos.exe.config
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\gestionObjetos.exe
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\gestionObjetos.pdb
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\bin\Debug\gestionObjetos.exe
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\bin\Debug\gestionObjetos.pdb
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionObjetos.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionTaberna.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmMenu.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmNuevoObjetoTaberna.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\GenerateResource.read.1.tlog
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\GenerateResource.write.1.tlog
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionEnemigos.resources
+C:\Kongol\My Dropbox\UA\3º Año\DPAA\Proyecto SVN\ proyectodpaa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionMapas.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\bin\Debug\gestionObjetos.exe.config
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\gestionObjetos.exe
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\gestionObjetos.pdb
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\bin\Debug\gestionObjetos.exe
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\bin\Debug\gestionObjetos.pdb
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionEnemigos.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionObjetos.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionTaberna.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmMenu.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmNuevoObjetoTaberna.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionMapas.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionEnemigos.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionObjetos.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionTaberna.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmMenu.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmNuevoObjetoTaberna.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionMapas.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionMisiones.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmBuscador.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionPersonajes.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGestionUsuarios.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.exe.config
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.exe
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.pdb
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.Properties.Resources.resources
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.exe
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.pdb
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProjectSIETE-Desarrollo\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionMisiones.resources

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="solucion">
+</Property><Property Name="Archivo de la solución" Value="C:\Users\Kongol\Desktop\solucion\solucion.sln">
+</Property><Property Name="Date" Value="miércoles, 09 de marzo de 2011">
+</Property><Property Name="Time" Value="16:55">
+</Property></Properties><Event ErrorLevel="0" Project="gestionObjetos" Source="WindowsFormsApplication1\gestionObjetos.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="gestionObjetos" Source="WindowsFormsApplication1\gestionObjetos.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="solucion.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="solucion.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="gestionObjetos" Source="WindowsFormsApplication1\gestionObjetos.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>
