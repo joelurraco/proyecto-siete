@@ -136,6 +136,7 @@
     <Compile Include="frmGestionUsuarios.designer.cs">
       <DependentUpon>frmGestionUsuarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Objeto.cs" />
     <Compile Include="Personaje.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -57,3 +57,6 @@ C:\Users\Johan\Desktop\proyecto DPAA\WindowsFormsApplication1\obj\Debug\Proyecto
 C:\Users\Johan\Desktop\proyecto DPAA\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.Properties.Resources.resources
 C:\Users\Johan\Desktop\proyecto DPAA\WindowsFormsApplication1\obj\Debug\GenerateResource.read.1.tlog
 C:\Users\Johan\Desktop\proyecto DPAA\WindowsFormsApplication1\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\Proyecto7\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.exe.config
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\Proyecto7\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.exe
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\Proyecto7\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.pdb
