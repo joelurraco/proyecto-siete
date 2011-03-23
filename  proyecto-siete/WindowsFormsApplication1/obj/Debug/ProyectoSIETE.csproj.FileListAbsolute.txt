@@ -81,3 +81,4 @@ C:\KoNGoL\Proyecto7\WindowsFormsApplication1\obj\Debug\GenerateResource.write.1.
 C:\KoNGoL\Proyecto7\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmLogin.resources
 C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.exe
 C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.pdb
+C:\Users\Johan\Desktop\proyecto DPAA\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmLogin.resources
