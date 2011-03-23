@@ -25,7 +25,7 @@ namespace ProyectoSIETE
             int id;
             string nombre;
             string clave;
-            int idPersonaje;
+            int personaje;
             string correo;
             int experiencia;
     }
