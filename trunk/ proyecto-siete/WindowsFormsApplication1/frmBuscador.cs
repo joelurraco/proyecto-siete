@@ -36,9 +36,11 @@ namespace ProyectoSIETE
             while (nodo != null)
             {
                 nodo.Checked = checkBox1.Checked;
-                /*if(nodo!=null){
-                    RecorrerCheck(nodo);
-                }*/
+                if(nodo.Nodes.Count>0){
+                    for (int i = 0; i<nodo.Nodes.Count; i++ ){
+                        RecorrerCheck(nodo.Nodes[i]);
+                    }
+                }
                 nodo = nodo.NextNode;
             }
         }
