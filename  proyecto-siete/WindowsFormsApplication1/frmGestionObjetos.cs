@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace ProyectoSIETE
 {
@@ -49,12 +50,18 @@ namespace ProyectoSIETE
             Close();
         }
 
-
-
-        private void button6_Click(object sender, EventArgs e)
+        private void btnBuscar_Click(object sender, EventArgs e)
         {
+            // comprobar que no tenga caracteres extraños
+            string regExp = @"^\w*$" ;
+            if (!Regex.Match(tbBuscador.Text, regExp).Success)
+            {
+                MessageBox.Show("Error, caracteres no validos, solo se admiten letras, numeros y _", "Error", MessageBoxButtons.OK);
+            }
 
         }
+
+
  
 	}
 }

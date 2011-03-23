@@ -49,7 +49,7 @@
             this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(531, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(414, 24);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -73,17 +73,17 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(235, 261);
+            this.btnEntrar.Location = new System.Drawing.Point(234, 205);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(75, 23);
-            this.btnEntrar.TabIndex = 13;
+            this.btnEntrar.TabIndex = 17;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
             this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // tbNombreAdministrador
             // 
-            this.tbNombreAdministrador.Location = new System.Drawing.Point(235, 155);
+            this.tbNombreAdministrador.Location = new System.Drawing.Point(209, 100);
             this.tbNombreAdministrador.Name = "tbNombreAdministrador";
             this.tbNombreAdministrador.Size = new System.Drawing.Size(100, 20);
             this.tbNombreAdministrador.TabIndex = 14;
@@ -91,7 +91,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(132, 162);
+            this.label1.Location = new System.Drawing.Point(106, 107);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 15;
@@ -100,7 +100,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(132, 199);
+            this.label2.Location = new System.Drawing.Point(106, 144);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 17;
@@ -108,16 +108,17 @@
             // 
             // tbContraseña
             // 
-            this.tbContraseña.Location = new System.Drawing.Point(235, 192);
+            this.tbContraseña.Location = new System.Drawing.Point(209, 137);
             this.tbContraseña.Name = "tbContraseña";
             this.tbContraseña.Size = new System.Drawing.Size(100, 20);
             this.tbContraseña.TabIndex = 16;
+            this.tbContraseña.UseSystemPasswordChar = true;
             // 
             // lbError
             // 
             this.lbError.AutoSize = true;
             this.lbError.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbError.Location = new System.Drawing.Point(132, 228);
+            this.lbError.Location = new System.Drawing.Point(106, 173);
             this.lbError.Name = "lbError";
             this.lbError.Size = new System.Drawing.Size(191, 13);
             this.lbError.TabIndex = 18;
@@ -128,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(531, 419);
+            this.ClientSize = new System.Drawing.Size(414, 341);
             this.Controls.Add(this.lbError);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbContraseña);
@@ -138,6 +139,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "frmLogin";
             this.Text = "frmLogin";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

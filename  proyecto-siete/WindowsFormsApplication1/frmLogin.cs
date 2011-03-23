@@ -30,5 +30,10 @@ namespace ProyectoSIETE
                 lbError.Visible = true;
             }
         }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
