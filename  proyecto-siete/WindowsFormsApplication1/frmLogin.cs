@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.Sql;
-using System.Data;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Data.Common;
+using ProyectoSIETE.Properties;
+using System.Configuration;
 
 namespace ProyectoSIETE
 {
@@ -26,7 +27,8 @@ namespace ProyectoSIETE
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            string aux = @"Data Source=localhost\SQLEXPRESS;AttachDbFilename=C:\KoNGoL\Proyecto7\BDProyecto7.mdf;Integrated Security=True";
+            //string aux = @"Data Source=.\SQLEXPRESS;Integrated Security=True;User Instance=True";
+            string aux= Settings.Default.BDProyecto7ConnectionString;
             conexion=new SqlConnection(aux);
             conexion.Open();
             SqlCommand com = new SqlCommand("select * from Administrador",conexion);

@@ -82,3 +82,5 @@ C:\KoNGoL\Proyecto7\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmLogin.re
 C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.exe
 C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.pdb
 C:\Users\Johan\Desktop\proyecto DPAA\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmLogin.resources
+C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\BDProyecto7.mdf
+C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\BDProyecto7_log.ldf
