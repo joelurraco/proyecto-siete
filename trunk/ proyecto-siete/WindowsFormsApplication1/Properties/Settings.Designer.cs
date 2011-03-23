@@ -32,5 +32,16 @@ namespace ProyectoSIETE.Properties {
                 return ((string)(this["Database1ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;AttachDbFilename=|DataDirectory|\\BDProyecto7.mdf;Integra" +
+            "ted Security=True;User Instance=True")]
+        public string BDProyecto7ConnectionString {
+            get {
+                return ((string)(this["BDProyecto7ConnectionString"]));
+            }
+        }
     }
 }
