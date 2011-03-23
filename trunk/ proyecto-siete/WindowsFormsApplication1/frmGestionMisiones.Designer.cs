@@ -290,6 +290,7 @@
             // 
             // gbDetalles
             // 
+            this.gbDetalles.BackColor = System.Drawing.Color.Gainsboro;
             this.gbDetalles.Location = new System.Drawing.Point(7, 34);
             this.gbDetalles.Name = "gbDetalles";
             this.gbDetalles.Size = new System.Drawing.Size(678, 574);
@@ -345,7 +346,6 @@
             this.nombreRecompensa.HeaderText = "Nombre";
             this.nombreRecompensa.Name = "nombreRecompensa";
             this.nombreRecompensa.ReadOnly = true;
-            this.nombreRecompensa.Width = 69;
             // 
             // tipoRecompensa
             // 
@@ -355,7 +355,6 @@
             this.tipoRecompensa.ReadOnly = true;
             this.tipoRecompensa.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.tipoRecompensa.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.tipoRecompensa.Width = 53;
             // 
             // cantidadRecompensa
             // 
