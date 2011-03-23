@@ -26,9 +26,21 @@ namespace ProyectoSIETE
 
         }
 
-        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            TreeNode actual=treeView1.TopNode;
+            RecorrerCheck(actual);
+        }
 
+        private void RecorrerCheck(TreeNode nodo){
+            while (nodo != null)
+            {
+                nodo.Checked = checkBox1.Checked;
+                if(nodo.!=null){
+                    RecorrerCheck(nodo);
+                }
+                nodo = nodo.NextNode;
+            }
         }
     }
 }
