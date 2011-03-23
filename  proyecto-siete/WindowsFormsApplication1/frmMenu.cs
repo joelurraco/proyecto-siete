@@ -15,6 +15,12 @@ namespace ProyectoSIETE
         {
             InitializeComponent();
         }
+        public frmMenu(frmLogin login) {
+            InitializeComponent();
+            login.Hide();
+            this.ShowDialog();
+            login.Close();
+        }
             // variables publicas para la creación de formularios
         frmGestionObjetos frmGestionObjetos = new frmGestionObjetos();
         frmGestionTaberna frmGestionTaberna = new frmGestionTaberna();
@@ -134,6 +140,16 @@ namespace ProyectoSIETE
             frmGestionLocalizaciones.MdiParent = this;
             frmGestionLocalizaciones.Show();
             frmGestionLocalizaciones.WindowState = FormWindowState.Maximized;
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
 
         
