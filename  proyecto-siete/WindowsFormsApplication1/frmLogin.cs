@@ -31,24 +31,36 @@ namespace ProyectoSIETE
             string aux= Settings.Default.BDProyecto7ConnectionString;
             conexion=new SqlConnection(aux);
             conexion.Open();
-            SqlCommand com = new SqlCommand("select * from Administrador",conexion);
+            /*SqlCommand com = new SqlCommand("select * from Administrador",conexion);
             SqlDataReader dr = com.ExecuteReader();
             dr.Read();
-            tbNombreAdministrador.Text=dr["nombreAdministrador"].ToString();
+            tbNombreAdministrador.Text=dr["nombreAdministrador"].ToString();*/
+
 
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            // realizar la conexion de con la base de datos
-            if (tbNombreAdministrador.Text == "admin" && tbContraseña.Text == "admin")
+            if (tbContraseña.Text !="" && tbNombreAdministrador.Text != "")
             {
-                frmMenu frmMenu = new frmMenu(this);
-                //this.Hide();
-                //frmMenu.ShowDialog();
-                //frmMenu.WindowState = FormWindowState.Maximized;
+                SqlCommand comando = new SqlCommand("select nombreAdministrador from Administrador where nombreAdministrador='"+tbNombreAdministrador.Text+"' and claveAdministrador='"+tbContraseña.Text+"'", conexion);
+                SqlDataReader dr = comando.ExecuteReader();
+                //dr.Read();
+                if (dr.HasRows)
+                {
+                    frmMenu frmMenu = new frmMenu(this);
+                }
+                else
+                {
+                    lbError.Text = "Error. Usuario o contraseña incorrectos";
+                    lbError.Visible = true;
+                }
+                dr.Close();
             }
-            else {
+            else
+            {
+                
+                lbError.Text = "Error. Introduce un usuario y contraseña.";
                 lbError.Visible = true;
             }
         }
