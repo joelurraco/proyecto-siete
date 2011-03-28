@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
@@ -41,27 +42,44 @@ namespace ProyectoSIETE
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            if (tbContraseña.Text !="" && tbNombreAdministrador.Text != "")
+            try
             {
-                SqlCommand comando = new SqlCommand("select nombreAdministrador from Administrador where nombreAdministrador='"+tbNombreAdministrador.Text+"' and claveAdministrador='"+tbContraseña.Text+"'", conexion);
-                SqlDataReader dr = comando.ExecuteReader();
-                //dr.Read();
-                if (dr.HasRows)
+                // comprobar que no tenga caracteres extraños
+                string regExp = @"^\w*$";
+                if (!Regex.Match(tbContraseña.Text, regExp).Success && !Regex.Match(tbNombreAdministrador.Text, regExp).Success)
                 {
-                    frmMenu frmMenu = new frmMenu(this);
+                    MessageBox.Show("Error, caracteres no validos, solo se admiten letras, numeros y _", "Error", MessageBoxButtons.OK);
                 }
                 else
                 {
-                    lbError.Text = "Error. Usuario o contraseña incorrectos";
-                    lbError.Visible = true;
+                    if (tbContraseña.Text != "" && tbNombreAdministrador.Text != "")
+                    {
+                        SqlCommand comando = new SqlCommand("select nombreAdministrador from Administrador where nombreAdministrador='" + tbNombreAdministrador.Text + "' and claveAdministrador='" + tbContraseña.Text + "'", conexion);
+                        SqlDataReader dr = comando.ExecuteReader();
+                        //dr.Read();
+                        if (dr.HasRows)
+                        {
+                            frmMenu frmMenu = new frmMenu(this);
+                        }
+                        else
+                        {
+                            lbError.Text = "Error. Usuario o contraseña incorrectos";
+                            lbError.Visible = true;
+                        }
+                        dr.Close();
+                    }
+                    else
+                    {
+
+                        lbError.Text = "Error. Introduce un usuario y contraseña.";
+                        lbError.Visible = true;
+                    }
                 }
-                dr.Close();
             }
-            else
-            {
-                
-                lbError.Text = "Error. Introduce un usuario y contraseña.";
-                lbError.Visible = true;
+            catch { 
+            
+            
+            
             }
         }
 
