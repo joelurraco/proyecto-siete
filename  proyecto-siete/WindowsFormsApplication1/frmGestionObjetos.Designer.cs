@@ -28,11 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.dgvItems = new System.Windows.Forms.DataGridView();
-            this.nombreObjeto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descObjeto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.tbBuscador = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -52,8 +51,18 @@
             this.btnBorrarTipo = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.bDProyecto7DataSet = new ProyectoSIETE.BDProyecto7DataSet();
+            this.bDProyecto7DataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.objetoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.objetoTableAdapter = new ProyectoSIETE.BDProyecto7DataSetTableAdapters.ObjetoTableAdapter();
+            this.idObjetoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvNombreObjeto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvDescripcionObjeto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvItems)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objetoBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btnBorrar
@@ -80,32 +89,23 @@
             // 
             this.dgvItems.AllowUserToAddRows = false;
             this.dgvItems.AllowUserToDeleteRows = false;
+            this.dgvItems.AutoGenerateColumns = false;
             this.dgvItems.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvItems.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.nombreObjeto,
-            this.descObjeto});
+            this.idObjetoDataGridViewTextBoxColumn,
+            this.dgvNombreObjeto,
+            this.dgvDescripcionObjeto});
+            this.dgvItems.DataSource = this.objetoBindingSource;
             this.dgvItems.Location = new System.Drawing.Point(12, 73);
             this.dgvItems.Name = "dgvItems";
             this.dgvItems.ReadOnly = true;
             this.dgvItems.Size = new System.Drawing.Size(760, 223);
             this.dgvItems.TabIndex = 4;
-            // 
-            // nombreObjeto
-            // 
-            this.nombreObjeto.HeaderText = "Nombre";
-            this.nombreObjeto.Name = "nombreObjeto";
-            this.nombreObjeto.ReadOnly = true;
-            // 
-            // descObjeto
-            // 
-            this.descObjeto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.descObjeto.HeaderText = "Descripción";
-            this.descObjeto.Name = "descObjeto";
-            this.descObjeto.ReadOnly = true;
+            this.dgvItems.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvItems_CellContentClick);
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(245, 34);
+            this.btnBuscar.Location = new System.Drawing.Point(245, 37);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 5;
@@ -218,6 +218,7 @@
             this.btnNuevo.TabIndex = 23;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // btnEditar
             // 
@@ -227,6 +228,7 @@
             this.btnEditar.TabIndex = 24;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnNuevoTipo
             // 
@@ -285,6 +287,51 @@
             this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             // 
+            // bDProyecto7DataSet
+            // 
+            this.bDProyecto7DataSet.DataSetName = "BDProyecto7DataSet";
+            this.bDProyecto7DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // bDProyecto7DataSetBindingSource
+            // 
+            this.bDProyecto7DataSetBindingSource.DataSource = this.bDProyecto7DataSet;
+            this.bDProyecto7DataSetBindingSource.Position = 0;
+            // 
+            // objetoBindingSource
+            // 
+            this.objetoBindingSource.DataMember = "Objeto";
+            this.objetoBindingSource.DataSource = this.bDProyecto7DataSetBindingSource;
+            // 
+            // objetoTableAdapter
+            // 
+            this.objetoTableAdapter.ClearBeforeFill = true;
+            // 
+            // idObjetoDataGridViewTextBoxColumn
+            // 
+            this.idObjetoDataGridViewTextBoxColumn.DataPropertyName = "idObjeto";
+            this.idObjetoDataGridViewTextBoxColumn.HeaderText = "idObjeto";
+            this.idObjetoDataGridViewTextBoxColumn.Name = "idObjetoDataGridViewTextBoxColumn";
+            this.idObjetoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idObjetoDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.idObjetoDataGridViewTextBoxColumn.Visible = false;
+            this.idObjetoDataGridViewTextBoxColumn.Width = 5;
+            // 
+            // dgvNombreObjeto
+            // 
+            this.dgvNombreObjeto.DataPropertyName = "nombreObjeto";
+            this.dgvNombreObjeto.HeaderText = "Nombre";
+            this.dgvNombreObjeto.Name = "dgvNombreObjeto";
+            this.dgvNombreObjeto.ReadOnly = true;
+            this.dgvNombreObjeto.Width = 250;
+            // 
+            // dgvDescripcionObjeto
+            // 
+            this.dgvDescripcionObjeto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dgvDescripcionObjeto.DataPropertyName = "descripcionObjeto";
+            this.dgvDescripcionObjeto.HeaderText = "Descripción";
+            this.dgvDescripcionObjeto.Name = "dgvDescripcionObjeto";
+            this.dgvDescripcionObjeto.ReadOnly = true;
+            // 
             // frmGestionObjetos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -305,6 +352,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvItems)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objetoBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -315,8 +365,6 @@
         private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.DataGridView dgvItems;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombreObjeto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn descObjeto;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox tbBuscador;
         private System.Windows.Forms.Label label5;
@@ -336,6 +384,13 @@
         private System.Windows.Forms.Button btnBorrarTipo;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.BindingSource bDProyecto7DataSetBindingSource;
+        private BDProyecto7DataSet bDProyecto7DataSet;
+        private System.Windows.Forms.BindingSource objetoBindingSource;
+        private BDProyecto7DataSetTableAdapters.ObjetoTableAdapter objetoTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idObjetoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvNombreObjeto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvDescripcionObjeto;
     }
 }
 

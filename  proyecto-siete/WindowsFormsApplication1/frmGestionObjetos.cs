@@ -7,6 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Data.Sql;
+using System.Data.SqlClient;
+using System.Data.SqlTypes;
+using System.Data.Common;
+using ProyectoSIETE.Properties;
+using System.Configuration;
 
 namespace ProyectoSIETE
 {
@@ -17,10 +23,21 @@ namespace ProyectoSIETE
 			InitializeComponent();
 		}
 
+        // conexion con la BD
+        public SqlConnection conexion;
+
+        // variable para saber si se esta en modo edicion o no
+        private bool editarOn=true;
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'bDProyecto7DataSet.Objeto' Puede moverla o quitarla según sea necesario.
+            this.objetoTableAdapter.Fill(this.bDProyecto7DataSet.Objeto);
             this.StartPosition = FormStartPosition.CenterScreen;
+
+            // conexion con la BD para los tipo de objetos
+            string aux = Settings.Default.BDProyecto7ConnectionString;
+            conexion = new SqlConnection(aux);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -59,6 +76,23 @@ namespace ProyectoSIETE
                 MessageBox.Show("Error, caracteres no validos, solo se admiten letras, numeros y _", "Error", MessageBoxButtons.OK);
             }
 
+        }
+
+        private void dgvItems_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        // cambia el modo del data grid a nuevo  
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            editarOn = false;
+        }
+
+        // cambia el modo del data grid a editar un elemento
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            editarOn = true;
         }
 
 
