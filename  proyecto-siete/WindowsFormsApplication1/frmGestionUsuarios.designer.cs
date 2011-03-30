@@ -59,8 +59,7 @@
             // 
             // btBuscar
             // 
-            this.btBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btBuscar.Location = new System.Drawing.Point(628, 45);
+            this.btBuscar.Location = new System.Drawing.Point(172, 41);
             this.btBuscar.Name = "btBuscar";
             this.btBuscar.Size = new System.Drawing.Size(75, 23);
             this.btBuscar.TabIndex = 1;
@@ -69,7 +68,7 @@
             // 
             // btNuevo
             // 
-            this.btNuevo.Location = new System.Drawing.Point(46, 45);
+            this.btNuevo.Location = new System.Drawing.Point(274, 42);
             this.btNuevo.Name = "btNuevo";
             this.btNuevo.Size = new System.Drawing.Size(75, 23);
             this.btNuevo.TabIndex = 2;
@@ -78,7 +77,7 @@
             // 
             // btBorrar
             // 
-            this.btBorrar.Location = new System.Drawing.Point(289, 45);
+            this.btBorrar.Location = new System.Drawing.Point(517, 42);
             this.btBorrar.Name = "btBorrar";
             this.btBorrar.Size = new System.Drawing.Size(75, 23);
             this.btBorrar.TabIndex = 3;
@@ -87,7 +86,7 @@
             // 
             // btEditar
             // 
-            this.btEditar.Location = new System.Drawing.Point(127, 45);
+            this.btEditar.Location = new System.Drawing.Point(355, 42);
             this.btEditar.Name = "btEditar";
             this.btEditar.Size = new System.Drawing.Size(75, 23);
             this.btEditar.TabIndex = 4;
@@ -96,7 +95,7 @@
             // 
             // btMostrar
             // 
-            this.btMostrar.Location = new System.Drawing.Point(208, 45);
+            this.btMostrar.Location = new System.Drawing.Point(436, 42);
             this.btMostrar.Name = "btMostrar";
             this.btMostrar.Size = new System.Drawing.Size(75, 23);
             this.btMostrar.TabIndex = 5;
@@ -159,10 +158,9 @@
             // 
             // tbBuscar
             // 
-            this.tbBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbBuscar.Location = new System.Drawing.Point(448, 45);
+            this.tbBuscar.Location = new System.Drawing.Point(46, 44);
             this.tbBuscar.Name = "tbBuscar";
-            this.tbBuscar.Size = new System.Drawing.Size(174, 20);
+            this.tbBuscar.Size = new System.Drawing.Size(107, 20);
             this.tbBuscar.TabIndex = 8;
             this.tbBuscar.Text = "Buscar...";
             // 
