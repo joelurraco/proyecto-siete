@@ -113,3 +113,7 @@ C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsForm
 C:\Users\Johan\Desktop\proyecto SIETE\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.exe.config
 C:\Users\Johan\Desktop\proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.exe
 C:\Users\Johan\Desktop\proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.pdb
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\bin\Debug\CADProyectoSIETE.dll
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\bin\Debug\ENProyectoSIETE.dll
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\bin\Debug\CADProyectoSIETE.pdb
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\bin\Debug\ENProyectoSIETE.pdb
