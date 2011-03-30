@@ -43,6 +43,8 @@ namespace ProyectoSIETE
 
         private void formEnemigos_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'bDProyecto7DataSet.Enemigo' Puede moverla o quitarla según sea necesario.
+            this.enemigoTableAdapter.Fill(this.bDProyecto7DataSet.Enemigo);
 
         }
 

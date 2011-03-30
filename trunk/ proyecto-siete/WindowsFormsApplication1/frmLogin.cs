@@ -12,6 +12,7 @@ using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Data.Common;
 using ProyectoSIETE.Properties;
+using CADProyectoSIETE;
 using System.Configuration;
 
 namespace ProyectoSIETE
