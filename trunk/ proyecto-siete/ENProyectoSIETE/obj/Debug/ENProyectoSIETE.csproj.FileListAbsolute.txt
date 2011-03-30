@@ -3,3 +3,8 @@ C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\ENProyectoSIET
 C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\ENProyectoSIETE\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\ENProyectoSIETE\obj\Debug\ENProyectoSIETE.dll
 C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\ENProyectoSIETE\obj\Debug\ENProyectoSIETE.pdb
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\ENProyectoSIETE\bin\Debug\ENProyectoSIETE.dll
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\ENProyectoSIETE\bin\Debug\ENProyectoSIETE.pdb
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\ENProyectoSIETE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\ENProyectoSIETE\obj\Debug\ENProyectoSIETE.dll
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\ENProyectoSIETE\obj\Debug\ENProyectoSIETE.pdb

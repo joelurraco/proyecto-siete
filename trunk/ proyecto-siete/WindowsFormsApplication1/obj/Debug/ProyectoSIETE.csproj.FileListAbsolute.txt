@@ -87,3 +87,26 @@ C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\BDProyecto7_log.ldf
 C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\bin\Debug\BDProyecto7.mdf
 C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\bin\Debug\BDProyecto7_log.ldf
 C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmLogin.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.exe.config
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.exe
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.pdb
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\bin\Debug\BDProyecto7.mdf
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\bin\Debug\BDProyecto7_log.ldf
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.exe
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.pdb
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionLocalizaciones.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmBuscador.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionEnemigos.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionObjetos.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionTaberna.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmLogin.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmMenu.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmNuevoObjetoTaberna.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionMapas.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionMisiones.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionPersonajes.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmGestionUsuarios.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.Properties.Resources.resources
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\GenerateResource.write.1.tlog
