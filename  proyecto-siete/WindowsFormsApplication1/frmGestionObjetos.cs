@@ -52,7 +52,11 @@ namespace ProyectoSIETE
             // se comprueba si se edita o se inserta
             if (editarOn)
             {   // se edita
-
+                string sentencia;
+                sentencia = "select * from objeto";
+                DataSet daSet = new DataSet();
+                SqlDataAdapter da = new SqlDataAdapter(sentencia,conexion);
+                da.Fill(daSet,"objeto");
 
             }
             else { // se inserta
