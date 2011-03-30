@@ -40,8 +40,6 @@
             this.tbAtaque = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.dgvEnemigo = new System.Windows.Forms.DataGridView();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.idEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ataqueEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vidaEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,14 +58,17 @@
             this.btnExaminar = new System.Windows.Forms.Button();
             this.ofdImagenEnemigo = new System.Windows.Forms.OpenFileDialog();
             this.enemigoTableAdapter = new ProyectoSIETE.BDProyecto7DataSetTableAdapters.EnemigoTableAdapter();
+            this.tbImagen = new System.Windows.Forms.TextBox();
+            this.pbEnemigo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEnemigo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemigoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEnemigo)).BeginInit();
             this.SuspendLayout();
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(252, 65);
+            this.btnBuscar.Location = new System.Drawing.Point(252, 68);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 2;
@@ -96,7 +97,7 @@
             // tbNomEnemigo
             // 
             this.tbNomEnemigo.Location = new System.Drawing.Point(149, 350);
-            this.tbNomEnemigo.MaxLength = 20;
+            this.tbNomEnemigo.MaxLength = 30;
             this.tbNomEnemigo.Name = "tbNomEnemigo";
             this.tbNomEnemigo.Size = new System.Drawing.Size(100, 20);
             this.tbNomEnemigo.TabIndex = 6;
@@ -158,8 +159,6 @@
             this.dgvEnemigo.AutoGenerateColumns = false;
             this.dgvEnemigo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvEnemigo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nombre,
-            this.idEnemigoDataGridViewTextBoxColumn,
             this.nombreEnemigoDataGridViewTextBoxColumn,
             this.ataqueEnemigoDataGridViewTextBoxColumn,
             this.vidaEnemigoDataGridViewTextBoxColumn,
@@ -173,59 +172,46 @@
             this.dgvEnemigo.Size = new System.Drawing.Size(641, 204);
             this.dgvEnemigo.TabIndex = 15;
             // 
-            // Nombre
-            // 
-            this.Nombre.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
-            // 
-            // idEnemigoDataGridViewTextBoxColumn
-            // 
-            this.idEnemigoDataGridViewTextBoxColumn.DataPropertyName = "idEnemigo";
-            this.idEnemigoDataGridViewTextBoxColumn.HeaderText = "idEnemigo";
-            this.idEnemigoDataGridViewTextBoxColumn.Name = "idEnemigoDataGridViewTextBoxColumn";
-            this.idEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
             // nombreEnemigoDataGridViewTextBoxColumn
             // 
             this.nombreEnemigoDataGridViewTextBoxColumn.DataPropertyName = "nombreEnemigo";
-            this.nombreEnemigoDataGridViewTextBoxColumn.HeaderText = "nombreEnemigo";
+            this.nombreEnemigoDataGridViewTextBoxColumn.HeaderText = "Nombre";
             this.nombreEnemigoDataGridViewTextBoxColumn.Name = "nombreEnemigoDataGridViewTextBoxColumn";
             this.nombreEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // ataqueEnemigoDataGridViewTextBoxColumn
             // 
             this.ataqueEnemigoDataGridViewTextBoxColumn.DataPropertyName = "ataqueEnemigo";
-            this.ataqueEnemigoDataGridViewTextBoxColumn.HeaderText = "ataqueEnemigo";
+            this.ataqueEnemigoDataGridViewTextBoxColumn.HeaderText = "Ataque";
             this.ataqueEnemigoDataGridViewTextBoxColumn.Name = "ataqueEnemigoDataGridViewTextBoxColumn";
             this.ataqueEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // vidaEnemigoDataGridViewTextBoxColumn
             // 
             this.vidaEnemigoDataGridViewTextBoxColumn.DataPropertyName = "vidaEnemigo";
-            this.vidaEnemigoDataGridViewTextBoxColumn.HeaderText = "vidaEnemigo";
+            this.vidaEnemigoDataGridViewTextBoxColumn.HeaderText = "Vida";
             this.vidaEnemigoDataGridViewTextBoxColumn.Name = "vidaEnemigoDataGridViewTextBoxColumn";
             this.vidaEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // defensaEnemigoDataGridViewTextBoxColumn
             // 
             this.defensaEnemigoDataGridViewTextBoxColumn.DataPropertyName = "defensaEnemigo";
-            this.defensaEnemigoDataGridViewTextBoxColumn.HeaderText = "defensaEnemigo";
+            this.defensaEnemigoDataGridViewTextBoxColumn.HeaderText = "Defensa";
             this.defensaEnemigoDataGridViewTextBoxColumn.Name = "defensaEnemigoDataGridViewTextBoxColumn";
             this.defensaEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // puntosEnemigoDataGridViewTextBoxColumn
             // 
             this.puntosEnemigoDataGridViewTextBoxColumn.DataPropertyName = "puntosEnemigo";
-            this.puntosEnemigoDataGridViewTextBoxColumn.HeaderText = "puntosEnemigo";
+            this.puntosEnemigoDataGridViewTextBoxColumn.HeaderText = "Puntos";
             this.puntosEnemigoDataGridViewTextBoxColumn.Name = "puntosEnemigoDataGridViewTextBoxColumn";
             this.puntosEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // imagenEnemigoDataGridViewTextBoxColumn
             // 
+            this.imagenEnemigoDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.imagenEnemigoDataGridViewTextBoxColumn.DataPropertyName = "imagenEnemigo";
-            this.imagenEnemigoDataGridViewTextBoxColumn.HeaderText = "imagenEnemigo";
+            this.imagenEnemigoDataGridViewTextBoxColumn.HeaderText = "Imagen";
             this.imagenEnemigoDataGridViewTextBoxColumn.Name = "imagenEnemigoDataGridViewTextBoxColumn";
             this.imagenEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
@@ -241,7 +227,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(31, 67);
+            this.textBox3.Location = new System.Drawing.Point(31, 70);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(215, 20);
             this.textBox3.TabIndex = 16;
@@ -317,11 +303,30 @@
             // 
             this.enemigoTableAdapter.ClearBeforeFill = true;
             // 
+            // tbImagen
+            // 
+            this.tbImagen.Location = new System.Drawing.Point(149, 430);
+            this.tbImagen.MaxLength = 100;
+            this.tbImagen.Name = "tbImagen";
+            this.tbImagen.Size = new System.Drawing.Size(100, 20);
+            this.tbImagen.TabIndex = 24;
+            // 
+            // pbEnemigo
+            // 
+            this.pbEnemigo.Location = new System.Drawing.Point(149, 457);
+            this.pbEnemigo.Name = "pbEnemigo";
+            this.pbEnemigo.Size = new System.Drawing.Size(100, 50);
+            this.pbEnemigo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEnemigo.TabIndex = 25;
+            this.pbEnemigo.TabStop = false;
+            // 
             // frmGestionEnemigos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(732, 547);
+            this.Controls.Add(this.pbEnemigo);
+            this.Controls.Add(this.tbImagen);
             this.Controls.Add(this.btnExaminar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.tbDefensa);
@@ -347,6 +352,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvEnemigo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemigoBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEnemigo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -365,7 +371,6 @@
         private System.Windows.Forms.TextBox tbAtaque;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dgvEnemigo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Button btnEditar;
@@ -378,13 +383,14 @@
         private BDProyecto7DataSet bDProyecto7DataSet;
         private System.Windows.Forms.BindingSource enemigoBindingSource;
         private BDProyecto7DataSetTableAdapters.EnemigoTableAdapter enemigoTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idEnemigoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreEnemigoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ataqueEnemigoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn vidaEnemigoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn defensaEnemigoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn puntosEnemigoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn imagenEnemigoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.TextBox tbImagen;
+        private System.Windows.Forms.PictureBox pbEnemigo;
     }
 }
 
