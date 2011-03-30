@@ -1,0 +1,5 @@
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\ENProyectoSIETE\bin\Debug\ENProyectoSIETE.dll
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\ENProyectoSIETE\bin\Debug\ENProyectoSIETE.pdb
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\ENProyectoSIETE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\ENProyectoSIETE\obj\Debug\ENProyectoSIETE.dll
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\ENProyectoSIETE\obj\Debug\ENProyectoSIETE.pdb

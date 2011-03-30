@@ -84,3 +84,6 @@ C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.pdb
 C:\Users\Johan\Desktop\proyecto DPAA\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmLogin.resources
 C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\BDProyecto7.mdf
 C:\KoNGoL\Proyecto7\WindowsFormsApplication1\bin\Debug\BDProyecto7_log.ldf
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\bin\Debug\BDProyecto7.mdf
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\bin\Debug\BDProyecto7_log.ldf
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.frmLogin.resources
