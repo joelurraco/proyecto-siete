@@ -30,6 +30,7 @@ namespace ProyectoSIETE
         public SqlConnection conexion;
         private void frmBuscador_Load(object sender, EventArgs e)
         {
+            cbCriterio.SelectedIndex=0;
             string aux = Settings.Default.BDProyecto7ConnectionString;
             conexion = new SqlConnection(aux);
             conexion.Open();

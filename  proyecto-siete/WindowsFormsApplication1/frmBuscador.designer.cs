@@ -65,7 +65,7 @@
             this.tabUsuarios = new System.Windows.Forms.TabPage();
             this.dataGridView7 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbCriterio = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabEnemigos.SuspendLayout();
@@ -85,7 +85,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(517, 215);
+            this.button1.Location = new System.Drawing.Point(452, 242);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(138, 34);
             this.button1.TabIndex = 0;
@@ -182,9 +182,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 1);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(553, 163);
+            this.dataGridView1.Size = new System.Drawing.Size(581, 163);
             this.dataGridView1.TabIndex = 10;
             // 
             // tabControl1
@@ -196,10 +196,10 @@
             this.tabControl1.Controls.Add(this.tabMisiones);
             this.tabControl1.Controls.Add(this.tabLocalizaciones);
             this.tabControl1.Controls.Add(this.tabUsuarios);
-            this.tabControl1.Location = new System.Drawing.Point(40, 255);
+            this.tabControl1.Location = new System.Drawing.Point(29, 329);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(561, 193);
+            this.tabControl1.Size = new System.Drawing.Size(589, 193);
             this.tabControl1.TabIndex = 11;
             // 
             // tabEnemigos
@@ -208,7 +208,7 @@
             this.tabEnemigos.Location = new System.Drawing.Point(4, 22);
             this.tabEnemigos.Name = "tabEnemigos";
             this.tabEnemigos.Padding = new System.Windows.Forms.Padding(3);
-            this.tabEnemigos.Size = new System.Drawing.Size(553, 167);
+            this.tabEnemigos.Size = new System.Drawing.Size(581, 167);
             this.tabEnemigos.TabIndex = 1;
             this.tabEnemigos.Text = "Enemigos";
             this.tabEnemigos.UseVisualStyleBackColor = true;
@@ -219,7 +219,7 @@
             this.tabPersonajes.Location = new System.Drawing.Point(4, 22);
             this.tabPersonajes.Name = "tabPersonajes";
             this.tabPersonajes.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPersonajes.Size = new System.Drawing.Size(553, 167);
+            this.tabPersonajes.Size = new System.Drawing.Size(581, 167);
             this.tabPersonajes.TabIndex = 0;
             this.tabPersonajes.Text = "Personajes";
             this.tabPersonajes.UseVisualStyleBackColor = true;
@@ -229,7 +229,7 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(0, 0);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(553, 163);
+            this.dataGridView2.Size = new System.Drawing.Size(578, 163);
             this.dataGridView2.TabIndex = 0;
             // 
             // tabObjetos
@@ -237,7 +237,7 @@
             this.tabObjetos.Controls.Add(this.dataGridView3);
             this.tabObjetos.Location = new System.Drawing.Point(4, 22);
             this.tabObjetos.Name = "tabObjetos";
-            this.tabObjetos.Size = new System.Drawing.Size(553, 167);
+            this.tabObjetos.Size = new System.Drawing.Size(581, 167);
             this.tabObjetos.TabIndex = 2;
             this.tabObjetos.Text = "Objetos";
             this.tabObjetos.UseVisualStyleBackColor = true;
@@ -247,7 +247,7 @@
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Location = new System.Drawing.Point(0, 0);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(550, 164);
+            this.dataGridView3.Size = new System.Drawing.Size(581, 164);
             this.dataGridView3.TabIndex = 0;
             // 
             // tabMapas
@@ -255,7 +255,7 @@
             this.tabMapas.Controls.Add(this.dataGridView4);
             this.tabMapas.Location = new System.Drawing.Point(4, 22);
             this.tabMapas.Name = "tabMapas";
-            this.tabMapas.Size = new System.Drawing.Size(553, 167);
+            this.tabMapas.Size = new System.Drawing.Size(581, 167);
             this.tabMapas.TabIndex = 3;
             this.tabMapas.Text = "Mapas";
             this.tabMapas.UseVisualStyleBackColor = true;
@@ -265,7 +265,7 @@
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Location = new System.Drawing.Point(0, 0);
             this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(553, 163);
+            this.dataGridView4.Size = new System.Drawing.Size(578, 163);
             this.dataGridView4.TabIndex = 0;
             // 
             // tabMisiones
@@ -273,7 +273,7 @@
             this.tabMisiones.Controls.Add(this.dataGridView5);
             this.tabMisiones.Location = new System.Drawing.Point(4, 22);
             this.tabMisiones.Name = "tabMisiones";
-            this.tabMisiones.Size = new System.Drawing.Size(553, 167);
+            this.tabMisiones.Size = new System.Drawing.Size(581, 167);
             this.tabMisiones.TabIndex = 4;
             this.tabMisiones.Text = "Misiones";
             this.tabMisiones.UseVisualStyleBackColor = true;
@@ -283,7 +283,7 @@
             this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView5.Location = new System.Drawing.Point(0, 0);
             this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.Size = new System.Drawing.Size(553, 163);
+            this.dataGridView5.Size = new System.Drawing.Size(581, 163);
             this.dataGridView5.TabIndex = 0;
             // 
             // tabLocalizaciones
@@ -291,7 +291,7 @@
             this.tabLocalizaciones.Controls.Add(this.dataGridView6);
             this.tabLocalizaciones.Location = new System.Drawing.Point(4, 22);
             this.tabLocalizaciones.Name = "tabLocalizaciones";
-            this.tabLocalizaciones.Size = new System.Drawing.Size(553, 167);
+            this.tabLocalizaciones.Size = new System.Drawing.Size(581, 167);
             this.tabLocalizaciones.TabIndex = 5;
             this.tabLocalizaciones.Text = "Localizaciones";
             this.tabLocalizaciones.UseVisualStyleBackColor = true;
@@ -301,7 +301,7 @@
             this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView6.Location = new System.Drawing.Point(0, 0);
             this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.Size = new System.Drawing.Size(553, 163);
+            this.dataGridView6.Size = new System.Drawing.Size(581, 163);
             this.dataGridView6.TabIndex = 0;
             // 
             // tabUsuarios
@@ -309,7 +309,7 @@
             this.tabUsuarios.Controls.Add(this.dataGridView7);
             this.tabUsuarios.Location = new System.Drawing.Point(4, 22);
             this.tabUsuarios.Name = "tabUsuarios";
-            this.tabUsuarios.Size = new System.Drawing.Size(553, 167);
+            this.tabUsuarios.Size = new System.Drawing.Size(581, 167);
             this.tabUsuarios.TabIndex = 6;
             this.tabUsuarios.Text = "Usuarios";
             this.tabUsuarios.UseVisualStyleBackColor = true;
@@ -319,7 +319,7 @@
             this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView7.Location = new System.Drawing.Point(0, 0);
             this.dataGridView7.Name = "dataGridView7";
-            this.dataGridView7.Size = new System.Drawing.Size(553, 163);
+            this.dataGridView7.Size = new System.Drawing.Size(581, 163);
             this.dataGridView7.TabIndex = 0;
             // 
             // label3
@@ -331,23 +331,23 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "Criterio de búsqueda:";
             // 
-            // comboBox1
+            // cbCriterio
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbCriterio.FormattingEnabled = true;
+            this.cbCriterio.Items.AddRange(new object[] {
             "Nombre",
             "Descripción"});
-            this.comboBox1.Location = new System.Drawing.Point(143, 101);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 13;
+            this.cbCriterio.Location = new System.Drawing.Point(143, 101);
+            this.cbCriterio.Name = "cbCriterio";
+            this.cbCriterio.Size = new System.Drawing.Size(121, 21);
+            this.cbCriterio.TabIndex = 13;
             // 
             // frmBuscador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(708, 453);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(816, 534);
+            this.Controls.Add(this.cbCriterio);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.treeView1);
@@ -358,7 +358,7 @@
             this.Controls.Add(this.button1);
             this.Name = "frmBuscador";
             this.Text = "Buscador";
-            //this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.frmBuscador_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabEnemigos.ResumeLayout(false);
@@ -403,7 +403,7 @@
         private System.Windows.Forms.DataGridView dataGridView6;
         private System.Windows.Forms.DataGridView dataGridView7;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbCriterio;
     }
 }
 
