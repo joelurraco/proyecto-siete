@@ -6,6 +6,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
+using System.Data.Sql;
+using System.Data.SqlClient;
+using System.Data.SqlTypes;
+using System.Data.Common;
+using ProyectoSIETE.Properties;
+using System.Configuration;
 
 namespace ProyectoSIETE
 {
@@ -20,10 +27,12 @@ namespace ProyectoSIETE
         {
 
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        public SqlConnection conexion;
+        private void frmBuscador_Load(object sender, EventArgs e)
         {
-
+            string aux = Settings.Default.BDProyecto7ConnectionString;
+            conexion = new SqlConnection(aux);
+            conexion.Open();
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
