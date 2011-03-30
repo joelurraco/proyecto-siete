@@ -48,8 +48,17 @@ namespace ProyectoSIETE
         }
 
         private void button3_Click(object sender, EventArgs e)
-        {
+        {   
+            // se comprueba si se edita o se inserta
+            if (editarOn)
+            {   // se edita
+
+
+            }
+            else { // se inserta
             
+            
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)

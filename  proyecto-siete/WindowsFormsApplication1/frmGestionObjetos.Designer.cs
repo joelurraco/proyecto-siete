@@ -32,6 +32,12 @@
             this.btnBorrar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.dgvItems = new System.Windows.Forms.DataGridView();
+            this.idObjetoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvNombreObjeto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvDescripcionObjeto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.objetoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bDProyecto7DataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bDProyecto7DataSet = new ProyectoSIETE.BDProyecto7DataSet();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.tbBuscador = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -51,18 +57,14 @@
             this.btnBorrarTipo = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.bDProyecto7DataSet = new ProyectoSIETE.BDProyecto7DataSet();
-            this.bDProyecto7DataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.objetoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.objetoTableAdapter = new ProyectoSIETE.BDProyecto7DataSetTableAdapters.ObjetoTableAdapter();
-            this.idObjetoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvNombreObjeto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvDescripcionObjeto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.objetoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvItems)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objetoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.objetoBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnBorrar
@@ -95,13 +97,54 @@
             this.idObjetoDataGridViewTextBoxColumn,
             this.dgvNombreObjeto,
             this.dgvDescripcionObjeto});
-            this.dgvItems.DataSource = this.objetoBindingSource;
+            this.dgvItems.DataSource = this.objetoBindingSource1;
             this.dgvItems.Location = new System.Drawing.Point(12, 73);
             this.dgvItems.Name = "dgvItems";
             this.dgvItems.ReadOnly = true;
             this.dgvItems.Size = new System.Drawing.Size(760, 223);
             this.dgvItems.TabIndex = 4;
             this.dgvItems.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvItems_CellContentClick);
+            // 
+            // idObjetoDataGridViewTextBoxColumn
+            // 
+            this.idObjetoDataGridViewTextBoxColumn.DataPropertyName = "idObjeto";
+            this.idObjetoDataGridViewTextBoxColumn.HeaderText = "idObjeto";
+            this.idObjetoDataGridViewTextBoxColumn.Name = "idObjetoDataGridViewTextBoxColumn";
+            this.idObjetoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idObjetoDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.idObjetoDataGridViewTextBoxColumn.Visible = false;
+            this.idObjetoDataGridViewTextBoxColumn.Width = 5;
+            // 
+            // dgvNombreObjeto
+            // 
+            this.dgvNombreObjeto.DataPropertyName = "nombreObjeto";
+            this.dgvNombreObjeto.HeaderText = "Nombre";
+            this.dgvNombreObjeto.Name = "dgvNombreObjeto";
+            this.dgvNombreObjeto.ReadOnly = true;
+            this.dgvNombreObjeto.Width = 250;
+            // 
+            // dgvDescripcionObjeto
+            // 
+            this.dgvDescripcionObjeto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dgvDescripcionObjeto.DataPropertyName = "descripcionObjeto";
+            this.dgvDescripcionObjeto.HeaderText = "Descripción";
+            this.dgvDescripcionObjeto.Name = "dgvDescripcionObjeto";
+            this.dgvDescripcionObjeto.ReadOnly = true;
+            // 
+            // objetoBindingSource
+            // 
+            this.objetoBindingSource.DataMember = "Objeto";
+            this.objetoBindingSource.DataSource = this.bDProyecto7DataSetBindingSource;
+            // 
+            // bDProyecto7DataSetBindingSource
+            // 
+            this.bDProyecto7DataSetBindingSource.DataSource = this.bDProyecto7DataSet;
+            this.bDProyecto7DataSetBindingSource.Position = 0;
+            // 
+            // bDProyecto7DataSet
+            // 
+            this.bDProyecto7DataSet.DataSetName = "BDProyecto7DataSet";
+            this.bDProyecto7DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // btnBuscar
             // 
@@ -287,50 +330,14 @@
             this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             // 
-            // bDProyecto7DataSet
-            // 
-            this.bDProyecto7DataSet.DataSetName = "BDProyecto7DataSet";
-            this.bDProyecto7DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // bDProyecto7DataSetBindingSource
-            // 
-            this.bDProyecto7DataSetBindingSource.DataSource = this.bDProyecto7DataSet;
-            this.bDProyecto7DataSetBindingSource.Position = 0;
-            // 
-            // objetoBindingSource
-            // 
-            this.objetoBindingSource.DataMember = "Objeto";
-            this.objetoBindingSource.DataSource = this.bDProyecto7DataSetBindingSource;
-            // 
             // objetoTableAdapter
             // 
             this.objetoTableAdapter.ClearBeforeFill = true;
             // 
-            // idObjetoDataGridViewTextBoxColumn
+            // objetoBindingSource1
             // 
-            this.idObjetoDataGridViewTextBoxColumn.DataPropertyName = "idObjeto";
-            this.idObjetoDataGridViewTextBoxColumn.HeaderText = "idObjeto";
-            this.idObjetoDataGridViewTextBoxColumn.Name = "idObjetoDataGridViewTextBoxColumn";
-            this.idObjetoDataGridViewTextBoxColumn.ReadOnly = true;
-            this.idObjetoDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.idObjetoDataGridViewTextBoxColumn.Visible = false;
-            this.idObjetoDataGridViewTextBoxColumn.Width = 5;
-            // 
-            // dgvNombreObjeto
-            // 
-            this.dgvNombreObjeto.DataPropertyName = "nombreObjeto";
-            this.dgvNombreObjeto.HeaderText = "Nombre";
-            this.dgvNombreObjeto.Name = "dgvNombreObjeto";
-            this.dgvNombreObjeto.ReadOnly = true;
-            this.dgvNombreObjeto.Width = 250;
-            // 
-            // dgvDescripcionObjeto
-            // 
-            this.dgvDescripcionObjeto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dgvDescripcionObjeto.DataPropertyName = "descripcionObjeto";
-            this.dgvDescripcionObjeto.HeaderText = "Descripción";
-            this.dgvDescripcionObjeto.Name = "dgvDescripcionObjeto";
-            this.dgvDescripcionObjeto.ReadOnly = true;
+            this.objetoBindingSource1.DataMember = "Objeto";
+            this.objetoBindingSource1.DataSource = this.bDProyecto7DataSetBindingSource;
             // 
             // frmGestionObjetos
             // 
@@ -350,11 +357,12 @@
             this.Text = "Gestión de objetos";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvItems)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objetoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objetoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.objetoBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -391,6 +399,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn idObjetoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvNombreObjeto;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvDescripcionObjeto;
+        private System.Windows.Forms.BindingSource objetoBindingSource1;
     }
 }
 
