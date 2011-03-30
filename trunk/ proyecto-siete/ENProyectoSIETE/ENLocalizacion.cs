@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 
@@ -13,6 +13,8 @@ namespace ENProyectoSIETE
         private string descripcionLocalizacion;
         private string imagenLocalizacion;
         private string fondoLocalizacion;
+        private ArrayList ENObjeto;
+        private ArrayList ENEnemigo;
 
         // Constructor sobrecargado
         public ENLocalizacion(int newId, string newName, string newDesc = "", string newImage = "", string newBG = "")
