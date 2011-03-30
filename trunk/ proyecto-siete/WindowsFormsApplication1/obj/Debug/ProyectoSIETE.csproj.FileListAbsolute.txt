@@ -110,3 +110,6 @@ C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsForm
 C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.Properties.Resources.resources
 C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\GenerateResource.read.1.tlog
 C:\Users\flahir\Documents\Visual Studio 2010\Projects\Proyecto SIETE\WindowsFormsApplication1\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Johan\Desktop\proyecto SIETE\WindowsFormsApplication1\bin\Debug\ProyectoSIETE.exe.config
+C:\Users\Johan\Desktop\proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.exe
+C:\Users\Johan\Desktop\proyecto SIETE\WindowsFormsApplication1\obj\Debug\ProyectoSIETE.pdb
