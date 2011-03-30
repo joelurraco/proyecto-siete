@@ -6,6 +6,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENProyectoSIETE", "ENProyectoSIETE\ENProyectoSIETE.csproj", "{DE1150F0-C5B5-4CB4-BDC2-9A48DD78001A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoSIETECAD", "CADProyectoSIETE\ProyectoSIETECAD.csproj", "{A0791CBE-7013-4759-8102-2F3673F48EE3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE1150F0-C5B5-4CB4-BDC2-9A48DD78001A} = {DE1150F0-C5B5-4CB4-BDC2-9A48DD78001A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
