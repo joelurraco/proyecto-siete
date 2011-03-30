@@ -358,7 +358,7 @@
             this.Controls.Add(this.button1);
             this.Name = "frmBuscador";
             this.Text = "Buscador";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            //this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabEnemigos.ResumeLayout(false);
