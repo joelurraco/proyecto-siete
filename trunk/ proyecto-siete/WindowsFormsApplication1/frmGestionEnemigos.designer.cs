@@ -41,6 +41,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.dgvEnemigo = new System.Windows.Forms.DataGridView();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.idEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ataqueEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vidaEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.defensaEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.puntosEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.imagenEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.enemigoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bDProyecto7DataSet = new ProyectoSIETE.BDProyecto7DataSet();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
@@ -50,19 +59,10 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnExaminar = new System.Windows.Forms.Button();
             this.ofdImagenEnemigo = new System.Windows.Forms.OpenFileDialog();
-            this.bDProyecto7DataSet = new ProyectoSIETE.BDProyecto7DataSet();
-            this.enemigoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.enemigoTableAdapter = new ProyectoSIETE.BDProyecto7DataSetTableAdapters.EnemigoTableAdapter();
-            this.idEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ataqueEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.vidaEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.defensaEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.puntosEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.imagenEnemigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEnemigo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemigoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // btnBuscar
@@ -96,6 +96,7 @@
             // tbNomEnemigo
             // 
             this.tbNomEnemigo.Location = new System.Drawing.Point(149, 350);
+            this.tbNomEnemigo.MaxLength = 20;
             this.tbNomEnemigo.Name = "tbNomEnemigo";
             this.tbNomEnemigo.Size = new System.Drawing.Size(100, 20);
             this.tbNomEnemigo.TabIndex = 6;
@@ -177,6 +178,66 @@
             this.Nombre.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            // 
+            // idEnemigoDataGridViewTextBoxColumn
+            // 
+            this.idEnemigoDataGridViewTextBoxColumn.DataPropertyName = "idEnemigo";
+            this.idEnemigoDataGridViewTextBoxColumn.HeaderText = "idEnemigo";
+            this.idEnemigoDataGridViewTextBoxColumn.Name = "idEnemigoDataGridViewTextBoxColumn";
+            this.idEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // nombreEnemigoDataGridViewTextBoxColumn
+            // 
+            this.nombreEnemigoDataGridViewTextBoxColumn.DataPropertyName = "nombreEnemigo";
+            this.nombreEnemigoDataGridViewTextBoxColumn.HeaderText = "nombreEnemigo";
+            this.nombreEnemigoDataGridViewTextBoxColumn.Name = "nombreEnemigoDataGridViewTextBoxColumn";
+            this.nombreEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // ataqueEnemigoDataGridViewTextBoxColumn
+            // 
+            this.ataqueEnemigoDataGridViewTextBoxColumn.DataPropertyName = "ataqueEnemigo";
+            this.ataqueEnemigoDataGridViewTextBoxColumn.HeaderText = "ataqueEnemigo";
+            this.ataqueEnemigoDataGridViewTextBoxColumn.Name = "ataqueEnemigoDataGridViewTextBoxColumn";
+            this.ataqueEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // vidaEnemigoDataGridViewTextBoxColumn
+            // 
+            this.vidaEnemigoDataGridViewTextBoxColumn.DataPropertyName = "vidaEnemigo";
+            this.vidaEnemigoDataGridViewTextBoxColumn.HeaderText = "vidaEnemigo";
+            this.vidaEnemigoDataGridViewTextBoxColumn.Name = "vidaEnemigoDataGridViewTextBoxColumn";
+            this.vidaEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // defensaEnemigoDataGridViewTextBoxColumn
+            // 
+            this.defensaEnemigoDataGridViewTextBoxColumn.DataPropertyName = "defensaEnemigo";
+            this.defensaEnemigoDataGridViewTextBoxColumn.HeaderText = "defensaEnemigo";
+            this.defensaEnemigoDataGridViewTextBoxColumn.Name = "defensaEnemigoDataGridViewTextBoxColumn";
+            this.defensaEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // puntosEnemigoDataGridViewTextBoxColumn
+            // 
+            this.puntosEnemigoDataGridViewTextBoxColumn.DataPropertyName = "puntosEnemigo";
+            this.puntosEnemigoDataGridViewTextBoxColumn.HeaderText = "puntosEnemigo";
+            this.puntosEnemigoDataGridViewTextBoxColumn.Name = "puntosEnemigoDataGridViewTextBoxColumn";
+            this.puntosEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // imagenEnemigoDataGridViewTextBoxColumn
+            // 
+            this.imagenEnemigoDataGridViewTextBoxColumn.DataPropertyName = "imagenEnemigo";
+            this.imagenEnemigoDataGridViewTextBoxColumn.HeaderText = "imagenEnemigo";
+            this.imagenEnemigoDataGridViewTextBoxColumn.Name = "imagenEnemigoDataGridViewTextBoxColumn";
+            this.imagenEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // enemigoBindingSource
+            // 
+            this.enemigoBindingSource.DataMember = "Enemigo";
+            this.enemigoBindingSource.DataSource = this.bDProyecto7DataSet;
+            // 
+            // bDProyecto7DataSet
+            // 
+            this.bDProyecto7DataSet.DataSetName = "BDProyecto7DataSet";
+            this.bDProyecto7DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // textBox3
             // 
@@ -252,62 +313,9 @@
             // 
             this.ofdImagenEnemigo.FileName = "imgEnemigo";
             // 
-            // bDProyecto7DataSet
-            // 
-            this.bDProyecto7DataSet.DataSetName = "BDProyecto7DataSet";
-            this.bDProyecto7DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // enemigoBindingSource
-            // 
-            this.enemigoBindingSource.DataMember = "Enemigo";
-            this.enemigoBindingSource.DataSource = this.bDProyecto7DataSet;
-            // 
             // enemigoTableAdapter
             // 
             this.enemigoTableAdapter.ClearBeforeFill = true;
-            // 
-            // idEnemigoDataGridViewTextBoxColumn
-            // 
-            this.idEnemigoDataGridViewTextBoxColumn.DataPropertyName = "idEnemigo";
-            this.idEnemigoDataGridViewTextBoxColumn.HeaderText = "idEnemigo";
-            this.idEnemigoDataGridViewTextBoxColumn.Name = "idEnemigoDataGridViewTextBoxColumn";
-            this.idEnemigoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nombreEnemigoDataGridViewTextBoxColumn
-            // 
-            this.nombreEnemigoDataGridViewTextBoxColumn.DataPropertyName = "nombreEnemigo";
-            this.nombreEnemigoDataGridViewTextBoxColumn.HeaderText = "nombreEnemigo";
-            this.nombreEnemigoDataGridViewTextBoxColumn.Name = "nombreEnemigoDataGridViewTextBoxColumn";
-            // 
-            // ataqueEnemigoDataGridViewTextBoxColumn
-            // 
-            this.ataqueEnemigoDataGridViewTextBoxColumn.DataPropertyName = "ataqueEnemigo";
-            this.ataqueEnemigoDataGridViewTextBoxColumn.HeaderText = "ataqueEnemigo";
-            this.ataqueEnemigoDataGridViewTextBoxColumn.Name = "ataqueEnemigoDataGridViewTextBoxColumn";
-            // 
-            // vidaEnemigoDataGridViewTextBoxColumn
-            // 
-            this.vidaEnemigoDataGridViewTextBoxColumn.DataPropertyName = "vidaEnemigo";
-            this.vidaEnemigoDataGridViewTextBoxColumn.HeaderText = "vidaEnemigo";
-            this.vidaEnemigoDataGridViewTextBoxColumn.Name = "vidaEnemigoDataGridViewTextBoxColumn";
-            // 
-            // defensaEnemigoDataGridViewTextBoxColumn
-            // 
-            this.defensaEnemigoDataGridViewTextBoxColumn.DataPropertyName = "defensaEnemigo";
-            this.defensaEnemigoDataGridViewTextBoxColumn.HeaderText = "defensaEnemigo";
-            this.defensaEnemigoDataGridViewTextBoxColumn.Name = "defensaEnemigoDataGridViewTextBoxColumn";
-            // 
-            // puntosEnemigoDataGridViewTextBoxColumn
-            // 
-            this.puntosEnemigoDataGridViewTextBoxColumn.DataPropertyName = "puntosEnemigo";
-            this.puntosEnemigoDataGridViewTextBoxColumn.HeaderText = "puntosEnemigo";
-            this.puntosEnemigoDataGridViewTextBoxColumn.Name = "puntosEnemigoDataGridViewTextBoxColumn";
-            // 
-            // imagenEnemigoDataGridViewTextBoxColumn
-            // 
-            this.imagenEnemigoDataGridViewTextBoxColumn.DataPropertyName = "imagenEnemigo";
-            this.imagenEnemigoDataGridViewTextBoxColumn.HeaderText = "imagenEnemigo";
-            this.imagenEnemigoDataGridViewTextBoxColumn.Name = "imagenEnemigoDataGridViewTextBoxColumn";
             // 
             // frmGestionEnemigos
             // 
@@ -337,8 +345,8 @@
             this.Text = "Gestión de enemigos";
             this.Load += new System.EventHandler(this.formEnemigos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEnemigo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemigoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bDProyecto7DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
