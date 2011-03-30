@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ENLocalizacion.cs" />
     <Compile Include="ENEnemigo.cs" />
+    <Compile Include="ENMapa.cs" />
     <Compile Include="ENObjetos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
