@@ -31,13 +31,13 @@ namespace ProyectoSIETE
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'bDProyecto7DataSet.Objeto' Puede moverla o quitarla según sea necesario.
+            /*// TODO: esta línea de código carga datos en la tabla 'bDProyecto7DataSet.Objeto' Puede moverla o quitarla según sea necesario.
             this.objetoTableAdapter.Fill(this.bDProyecto7DataSet.Objeto);
             this.StartPosition = FormStartPosition.CenterScreen;
 
             // conexion con la BD para los tipo de objetos
             string aux = Settings.Default.BDProyecto7ConnectionString;
-            conexion = new SqlConnection(aux);
+            conexion = new SqlConnection(aux);*/
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -50,19 +50,7 @@ namespace ProyectoSIETE
         private void button3_Click(object sender, EventArgs e)
         {   
             // se comprueba si se edita o se inserta
-            if (editarOn)
-            {   // se edita
-                string sentencia;
-                sentencia = "select * from objeto";
-                DataSet daSet = new DataSet();
-                SqlDataAdapter da = new SqlDataAdapter(sentencia,conexion);
-                da.Fill(daSet,"objeto");
-
-            }
-            else { // se inserta
             
-            
-            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -91,21 +79,18 @@ namespace ProyectoSIETE
 
         }
 
-        private void dgvItems_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
+     
 
         // cambia el modo del data grid a nuevo  
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            editarOn = false;
+            
         }
 
         // cambia el modo del data grid a editar un elemento
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            editarOn = true;
+            
         }
 
 

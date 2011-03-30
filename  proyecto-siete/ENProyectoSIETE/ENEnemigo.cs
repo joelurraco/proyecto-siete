@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ENProyectoSIETE
 {
-    class ENEnemigo
+    public class ENEnemigo
     {
         private int idEnemigo;
         private string nombreEnemigo;

@@ -1,0 +1,10 @@
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\bin\Debug\BDProyecto7.mdf
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\bin\Debug\BDProyecto7_log.ldf
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\bin\Debug\CADProyectoSIETE.dll.config
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\bin\Debug\CADProyectoSIETE.dll
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\bin\Debug\CADProyectoSIETE.pdb
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\bin\Debug\ENProyectoSIETE.dll
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\bin\Debug\ENProyectoSIETE.pdb
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\obj\Debug\CADProyectoSIETE.dll
+C:\Users\Joel\Documents\Visual Studio 2010\Projects\ProyectoSIETE\CADProyectoSIETE\obj\Debug\CADProyectoSIETE.pdb

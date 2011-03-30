@@ -198,7 +198,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="BDProyecto7DataSet.xsc">
       <DependentUpon>BDProyecto7DataSet.xsd</DependentUpon>
     </None>
@@ -269,13 +271,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BDProyecto7.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="BDProyecto7_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>BDProyecto7.mdf</DependentUpon>
-    </Content>
+    <ProjectReference Include="..\CADProyectoSIETE\ProyectoSIETECAD.csproj">
+      <Project>{A0791CBE-7013-4759-8102-2F3673F48EE3}</Project>
+      <Name>ProyectoSIETECAD</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

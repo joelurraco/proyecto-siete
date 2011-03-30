@@ -329,6 +329,7 @@
             this.tbDescLug.Name = "tbDescLug";
             this.tbDescLug.Size = new System.Drawing.Size(280, 100);
             this.tbDescLug.TabIndex = 16;
+            
             // 
             // label4
             // 
@@ -373,7 +374,7 @@
             this.tbNombre.Size = new System.Drawing.Size(219, 20);
             this.tbNombre.TabIndex = 11;
             // 
-            // frmLocalizacion
+            // frmGestionLocalizaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -383,7 +384,7 @@
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.gbInformacionBasica);
-            this.Name = "frmLocalizacion";
+            this.Name = "frmGestionLocalizaciones";
             this.Text = "Localización";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();

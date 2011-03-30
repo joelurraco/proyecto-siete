@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace ProyectoSIETE {
+namespace CADProyectoSIETE {
     
     
     /// <summary>
@@ -7680,7 +7680,7 @@ namespace ProyectoSIETE {
         }
     }
 }
-namespace ProyectoSIETE.BDProyecto7DataSetTableAdapters {
+namespace CADProyectoSIETE.BDProyecto7DataSetTableAdapters {
     
     
     /// <summary>
@@ -7841,7 +7841,7 @@ SELECT idAdministrador, nombreAdministrador, claveAdministrador FROM Administrad
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8209,7 +8209,7 @@ SELECT idEnemigo, nombreEnemigo, ataqueEnemigo, vidaEnemigo, defensaEnemigo, pun
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8578,7 +8578,7 @@ SELECT idLocalizacion, idEnemigo, porcentaje FROM EnemigoLocalizacion WHERE (idE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8900,7 +8900,7 @@ SELECT idLocalizacion, nombreLocalizacion, descripcionLocalizacion, imagenLocali
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9316,7 +9316,7 @@ SELECT idMapa, nombreMapa, imagenMapa, descripcionMapa FROM Mapa WHERE (idMapa =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9701,7 +9701,7 @@ SELECT idMapa, idLocalizacion, coordenadaX, coordenadaY FROM MapaLocalizacion WH
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10046,7 +10046,7 @@ SELECT idMision, nombreMision, mapaMision, descripcionMision, inicioMision, punt
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10477,7 +10477,7 @@ SELECT idMision, idRecompensa FROM MisionRecompensa WHERE (idMision = @idMision)
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10813,7 +10813,7 @@ SELECT idObjeto, nombreObjeto, tipoObjeto, ataqueObjeto, defensaObjeto, curacion
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11269,7 +11269,7 @@ SELECT idLocalizacion, idObjeto, porcentaje FROM ObjetoLocalizacion WHERE (idLoc
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11578,7 +11578,7 @@ SELECT idObjeto, idUsuario, cantidad FROM ObjetoUsuario WHERE (idObjeto = @idObj
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11894,7 +11894,7 @@ SELECT idPersonaje, tipoPersonaje, ataquePersonaje, vidaPersonaje, defensaPerson
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12236,7 +12236,7 @@ SELECT idRecompensa, nombreRecompensa, objetoRecompensa, cantidadRecompensa FROM
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12563,7 +12563,7 @@ SELECT idTipoObjeto, nombreTipoObjeto FROM TipoObjeto WHERE (idTipoObjeto = @idT
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12911,7 +12911,7 @@ SELECT idUsuario, nombreUsuario, claveUsuario, personajeUsuario, correoUsuario, 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString1;
+            this._connection.ConnectionString = global::CADProyectoSIETE.Properties.Settings.Default.BDProyecto7ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
