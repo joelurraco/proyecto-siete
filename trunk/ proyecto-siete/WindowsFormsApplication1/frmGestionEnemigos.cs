@@ -53,10 +53,13 @@ namespace ProyectoSIETE
             DialogResult resultado = ofdImagenEnemigo.ShowDialog();
             if (resultado == DialogResult.OK)
             {
-
+                tbImagen.Text = ofdImagenEnemigo.FileName;
+                pbEnemigo.ImageLocation = ofdImagenEnemigo.FileName; 
             }
 
         }
+
+        
 
     }
 }
