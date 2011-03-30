@@ -12,7 +12,7 @@ namespace ENProyectoSIETE
         private string nombreMapa;
         private string descripcionMapa;
         private string imagenMapa;
-        private ArrayList ENLocalizacion;
+        private ArrayList localizaciones;
 
         // Constructor sobrecargado
         public ENMapa(int newId, string newName, string newDesc = "", string newImage = "")
@@ -22,39 +22,35 @@ namespace ENProyectoSIETE
             descripcionMapa = newDesc;
             imagenMapa = newImage;
         }
-        // Sets
-        public void setId(int newId)
+
+        public int IdMapa
         {
-            idMapa = newId;
+            get { return(idMapa); }
+            set { idMapa = value; }
         }
-        public void setNombre(string newName)
+
+        public string NombreMapa
         {
-            nombreMapa = newName;
+            get { return (nombreMapa); }
+            set { nombreMapa = value; }
         }
-        public void setDescripcion(string newDesc)
+
+        public string DescripcionMapa
         {
-            descripcionMapa = newDesc;
+            get { return (descripcionMapa); }
+            set { descripcionMapa = value; }
         }
-        public void setImagen(string newImage)
+
+        public string ImagenMapa
         {
-            imagenMapa = newImage;
+            get { return (imagenMapa); }
+            set { imagenMapa = value; }
         }
-        // Gets
-        public int getId()
+
+        public ArrayList LocalizacionesMapa
         {
-            return (idMapa);
-        }
-        public string getNombre()
-        {
-            return (nombreMapa);
-        }
-        public string getDescripcion()
-        {
-            return(descripcionMapa);
-        }
-        public string getImagen()
-        {
-            return (imagenMapa);
+            get { return (localizaciones); }
+            set { localizaciones = value; }
         }
     }
 }

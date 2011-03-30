@@ -13,8 +13,8 @@ namespace ENProyectoSIETE
         private string descripcionLocalizacion;
         private string imagenLocalizacion;
         private string fondoLocalizacion;
-        private ArrayList ENObjeto;
-        private ArrayList ENEnemigo;
+        private ArrayList objetos;
+        private ArrayList enemigos;
 
         // Constructor sobrecargado
         public ENLocalizacion(int newId, string newName, string newDesc = "", string newImage = "", string newBG = "")
@@ -25,47 +25,47 @@ namespace ENProyectoSIETE
             imagenLocalizacion = newImage;
             fondoLocalizacion = newBG;
         }
-        // Sets
-        public void setId(int newId)
+
+        public int IdLocalizacion
         {
-            idLocalizacion = newId;
+            get { return (idLocalizacion); }
+            set { idLocalizacion = value; }
         }
-        public void setNombre(string newName)
+
+        public string NombreLocalizacion
         {
-            nombreLocalizacion = newName;
+            get { return (nombreLocalizacion); }
+            set { nombreLocalizacion = value; }
         }
-        public void setDescripcion(string newDesc)
+
+        public string DescripcionLocalizacion
         {
-            descripcionLocalizacion = newDesc;
+            get { return (descripcionLocalizacion); }
+            set { descripcionLocalizacion = value; }
         }
-        public void setImagen(string newImage)
+
+        public string ImagenLocalizacion
         {
-            imagenLocalizacion = newImage;
+            get { return (imagenLocalizacion); }
+            set { imagenLocalizacion = value; }
         }
-        public void setFondo(string newBG)
+
+        public string FondoLocalizacion
         {
-            fondoLocalizacion = newBG;
+            get { return (fondoLocalizacion); }
+            set { fondoLocalizacion = value; }
         }
-        // Gets
-        public int getId()
+
+        public ArrayList EnemigosLocalizacion
         {
-            return(idLocalizacion);
+            get { return (enemigos); }
+            set { enemigos = value; }
         }
-        public string getNombre()
+        
+        public ArrayList ObjetosLocalizacion
         {
-            return (nombreLocalizacion);
-        }
-        public string getDescripcion()
-        {
-            return(descripcionLocalizacion);
-        }
-        public string getImagen()
-        {
-            return(imagenLocalizacion);
-        }
-        public string getFondo()
-        {
-            return(fondoLocalizacion);
+            get { return (objetos); }
+            set { objetos = value; }
         }
     }
 }
